@@ -353,7 +353,7 @@ input[type="checkbox"]{
     font-size: 80px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 460px) {
     .historia__top h2{
         font-size: 50px;
     }
@@ -599,7 +599,7 @@ input[type="checkbox"]{
 
 @media (max-width: 580px) {
     .contacto__top h2{
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 
@@ -753,6 +753,10 @@ input[type="checkbox"]{
     font-size: 32px;
     text-decoration: underline;
     margin-top: 20px ;
+}
+
+.cerveceriasMes__titulo h2 {
+    padding: 10 15;
 }
 
 .contenedor__cervecerias {
