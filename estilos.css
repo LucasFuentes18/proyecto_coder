@@ -531,31 +531,26 @@ input[type="checkbox"]{
     font-size: 28px;
     text-decoration: underline;
     color: #1b1b1b;
-    padding-bottom: 10px;
+    text-align: center;
+    padding: 10 15;
 }
 
 .estilos__parrafo {
-    padding: 0.5rem 5rem 1.5rem 5rem;
-}
-
-.estilos__cerveza-lager {
-    grid-area: lager;
+    padding: 10 15;
     text-align: center;
 }
 
-.estilos__cerveza-ale {
-    grid-area: ale;
-    text-align: center;
-}
 
 .estilos__lager-img {
     max-width: 80%;
-    border-radius: 1rem;
+    padding: 10 15;
+    border-radius: 2rem;
 }
 
 .estilos__ale-img {
     max-width: 80%;
-    border-radius: 1rem;
+    padding: 10 15;
+    border-radius: 2rem;
 }
 
 @media screen and (max-width: 900px) {
