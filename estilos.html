@@ -1,9 +1,9 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,9 +12,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="img/beer.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="estilos.css">
     <title>Todo sobre birras</title>
 </head>
+
 <body>
     <!--Menu-->
     <header>
@@ -26,20 +29,70 @@
             </div>
             <input type="checkbox" id="click">
             <label for="click" class="menu-btn">
-            <i class="fas fa-bars"></i>
+                <i class="fas fa-bars"></i>
             </label>
             <ul>
-               <li><a href="historia.html">Historia</a></li>
-               <li><a href="estilos.html">Estilos</a></li>
-               <li><a href="cervecerias.html">Mejores Cervecerías</a></li>
-               <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="estilos.html">Estilos</a></li>
+                <li><a href="cervecerias.html">Mejores Cervecerías</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
-         </nav>
+        </nav>
     </header>
     <!--Info-->
     <div class="estilos__top">
-        <h2 class="animate__animated animate__zoomIn">ESTILOS DE CERVEZA</h2>
+        <h2 class="estilos__top_h2" class="animate__animated animate__zoomIn">ESTILOS DE CERVEZA</h2>
     </div>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h2 class="estilos__tit">LAGER</h2>
+                    <p class="estilos__parrafo">
+                        Las cervezas Lager destacan principalmente por elaborarse con levaduras de fermentación baja.
+                        Esto les otorga un color limpio con sabores sencillos, sin demasiadas notas en boca. Son
+                        cervezas muy refrescantes y normalmente con graduaciones alcohólicas bajas.
+                    </p>
+                </div>
+                <div class="col-sm">
+                    <img class="estilos__lager-img" src="img/cerveza_lager.jpg" alt="cerveza lager">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/pilsen_lager.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Pilsner: Esta variedad es la más conocida de las LAGERS, si queres algo muy suave y con un sutil aroma a lúpulo, esta es tu mejor opción. Su color es de un dorado claro y comúnmente su porcentaje de alcohol es bajo.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/pale_lager.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Pale Lager: Estas cervezas también tienen un tenue sabor a lúpulo. Su color es un amarillo muy pálido, aunque igual pueden llegar de un amarillo dorado no tan claro. Ideal para cuando hace calorcito y necesitas algo ligero y refrescante.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/dunkel_lager.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Dunkel: Es el estilo que normalmente se sirve cuando queremos una lager oscura. Su color va desde el café rojizo hasta el negro carbón. Podría parecer una stout pero, a diferencia de ellas, el sabor de las Dunkel no es tan intenso.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--Info
     <section class="estilos">
         <div class="estilos__cerveza-lager">
             <h2 class="estilos__tit">LAGER</h2>
@@ -56,13 +109,15 @@
                 Los sabores de estas cervezas son muy variados y tienen notas de todo tipos. Existe gran variedad de Ales y son relativamente fáciles de fabricar por cerveceros caseros, ya que no se necesita enfriar el mosto durante la fermentación.
             </p>
         </div>
-    </section>
+    </section> -->
+
+
 
     <!--Footer-->
     <footer class="footer">
         <div class="footer__titulo">
             <h3>
-                ¡Seguinos en las redes! 
+                ¡Seguinos en las redes!
             </h3>
         </div>
         <div class="footer__imagen">
@@ -71,7 +126,7 @@
             </div>
             <div class="footer__imagen-ig">
                 <a target="_blank" href="https://www.instagram.com"><img src="img/ig.png" alt="instagram"></a>
-            </div> 
+            </div>
             <div class="footer__imagen-tw">
                 <a target="_blank" href="https://www.twitter.com"><img src="img/tw.png" alt="Twitter"></a>
             </div>
@@ -82,5 +137,7 @@
     <div class="copy">
         <p>Copyright© Lucas Fuentes 2021</p>
     </div>
+    <script src="js/bootstrap.js"></script>
 </body>
+
 </html>
