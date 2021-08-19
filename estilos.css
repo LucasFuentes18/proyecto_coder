@@ -540,6 +540,19 @@ input[type="checkbox"]{
     text-align: center;
 }
 
+.container__img-lager {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(img/cerveza_old.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.display-4__estilos {
+    color:white
+}
+
+.lead__estilos {
+    color:white
+}
 
 .estilos__lager-img {
     max-width: 80%;
