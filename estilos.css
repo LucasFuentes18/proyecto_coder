@@ -467,6 +467,18 @@ input[type="checkbox"] {
     font-size: 1.2em;
 }
 
+.carousel__historia {
+    width: 100%;
+    padding: 0 20%;
+}
+
+@media (max-width: 1000px) {
+    .carousel__historia {
+        padding: 0 10%;
+    }
+}
+
+
 @media (max-width: 810px) {
     .historia__hover-contenedor {
         display: grid;
