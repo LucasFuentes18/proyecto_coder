@@ -472,6 +472,13 @@ input[type="checkbox"] {
     padding: 0 20%;
 }
 
+.historia__top_h2 {
+    font-family: 'Tourney', cursive;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 1000;
+}
+
 @media (max-width: 1000px) {
     .carousel__historia {
         padding: 0 10%;
